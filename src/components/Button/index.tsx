@@ -22,6 +22,7 @@ const Button: React.FC<Props> = ({
     wide={wide}
     withPrice={withPrice}
     onClick={onClick}
+    target="_blank"
   >
     {children}
   </S.ButtonWrapper>
